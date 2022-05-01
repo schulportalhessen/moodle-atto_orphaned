@@ -1,0 +1,10 @@
+{
+  "name": "moodle-orphaned-button",
+  "builds": {
+    "moodle-atto_orphaned-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

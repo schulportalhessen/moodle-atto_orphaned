@@ -1,0 +1,7 @@
+{
+    "moodle-atto_orphaned-button": {
+        "requires": [
+            "moodle-editor_atto-plugin"
+        ]
+    }
+}

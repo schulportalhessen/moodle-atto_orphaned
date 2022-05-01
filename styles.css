@@ -1,0 +1,97 @@
+.js-orphaned-wrapper {
+    border: solid 2px #58f;
+    box-shadow: 0 0 10px #444;
+    margin-top: 15px;
+}
+
+.atto-orphaned-preview-image {
+    max-height: 50px;
+    max-width: 80px;
+}
+
+
+.atto-orphaned-preview-video{
+    max-height: 150px;
+    max-width: 200px;
+}
+
+.orphaned-files-details {
+    background-color: #b8d9fb;
+    border: 1px solid #aaa;
+    padding: 5px;
+    margin: 0;
+}
+.all-files-details {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.singledeletion {
+    background: #fc3d3d;
+    padding-left: 3px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    box-shadow: 0 0 0 0;
+    color: #fff;
+}
+.singledeletion:hover {
+    background: #9e0e0e;
+    padding-left: 3px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    box-shadow: 0 0 0 0;
+}
+.singledeletion:focus,
+.singledeletion:active:focus {
+    background: #555;
+    color: #fff;
+    padding-left: 3px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    box-shadow: 0 0 0 0;
+}
+
+.orphaned-label {
+    font-weight: bold;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.maxcounter {
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.orphanedFilesCount,
+.allFilesCount {
+    color: #fc3d3d;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.atto-orphaned-img {
+    border: solid 1px #ccc;
+    box-shadow: 0 0 5px silver;
+}
+
+/* Sortable tables */
+table.sortable thead {
+    background-color: rgb(6, 35, 139);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+table.sortable {
+    background-color: #fff;
+}
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+    content: " \25B4\25BE";
+}
