@@ -75,6 +75,10 @@
             var elementId = host.get('elementid');
             this.elementId = elementId;
             var options = this.get('host').get('filepickeroptions');
+            if (options.length == 0) {
+                // should not be any files because there is no repository allowed to upload and store files in this context
+                return;
+            }
             var optionsImage = this.get('host').get('filepickeroptions').image;
 
             // Set some variables for each editor that is visible in the page.

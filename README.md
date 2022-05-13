@@ -22,6 +22,12 @@ Plugin was developed for SchulportalHessen
 ## Author
 Andreas Schenkel (andreas.schenkel@schulportal.hessen.de)
 
+
+# Changelog #
+## [[v1.1.2]] ##
+- fixed issue #5: plugin does not work in context where no files can be uploaded
+
+
 ## License ##
 
 2022
