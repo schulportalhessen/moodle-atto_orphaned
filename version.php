@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2022051301;
+$plugin->version = 2022060700;
 $plugin->requires = 2020061510;
 $plugin->component = 'atto_orphaned';
 $plugin->release = '1.1.3';
