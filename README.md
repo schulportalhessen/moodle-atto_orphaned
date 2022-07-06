@@ -24,6 +24,14 @@ Andreas Schenkel (andreas.schenkel@schulportal.hessen.de)
 
 
 # Changelog #
+## [[v1.1.3]] ##
+
+- fixed issue #1: is the requires version correct?
+- fixed issue #2: styles.css not specific enough
+- fixed issue #3: missing thirdpartylibs.xml file 
+- fixed issue #4: german string in english lang pack
+- fixed issue #5: consider adding github actions support
+
 ## [[v1.1.2]] ##
 - fixed issue #5: plugin does not work in context where no files can be uploaded
 

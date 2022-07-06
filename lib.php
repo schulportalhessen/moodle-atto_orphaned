@@ -53,7 +53,7 @@ function atto_orphaned_strings_for_js() {
         'atto_orphaned'
     );
     if (get_config('atto_orphaned', 'loadsorttablejs') == '1') {
-        $PAGE->requires->js('/lib/editor/atto/plugins/orphaned/sorttable.js');
+        $PAGE->requires->js('/lib/editor/atto/plugins/orphaned/javascript/sorttable.js');
     }
 }
 

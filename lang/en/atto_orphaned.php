@@ -96,5 +96,5 @@ $string['maxallfilescounter_desc'] = 'To be able to have not to large tables sho
 $string['heading:additonal'] = 'Additional settings';
 $string['folderfornotorphandfiles'] = 'Name of folder with not orphaned files';
 $string['folderfornotorphandfiles_desc'] = 'In some cases it might be usefull to store files that are not directly be linked but th files should not be indicated as orphaned. Files in a folder with this name or its subfolder are not indicated as orphaned. Do not use space or dots or slashs.';
-$string['loadsorttablejs'] = 'Sortierbare Tabelle aktivieren (sorttable.js)';
-$string['loadsorttablejs_desc'] = 'Wenn im Moodle nicht bereits ein CDN integriert ist, der die Datei sorttable.js bereitstelt, so kann die im plugin integrierte sorttable.j-Datei aktiviert werden.';
+$string['loadsorttablejs'] = 'Make table tortable using sorttable.js';
+$string['loadsorttablejs_desc'] = 'If there is not already javascript like sorttable.js integrated in this moodle instance, then the integrated sorttable.js-file can be activated to make the table in atto orphaned sortable.';
