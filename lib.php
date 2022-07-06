@@ -57,7 +57,9 @@ function atto_orphaned_strings_for_js() {
     }
 }
 
-// Config
+/**
+ * Initialise the js config required for this module.
+ */
 function atto_orphaned_params_for_js() {
     GLOBAL $USER, $COURSE;
     // to check capabilitys to use the plugin get the context
