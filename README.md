@@ -1,3 +1,7 @@
+# Deprecated!!!  
+
+Please consider for moodle the use of https://github.com/schulportalhessen/moodle-tiny_orphanedfiles
+
 # ATTO Orphaned files indicator
 
 You can see examples in the screenshots bellow.
